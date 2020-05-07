@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  padding: 15px 15px 0 15px;
+  border-bottom: solid 1px grey;
+}
+.logoGoogle{
+  margin-bottom: 20px;
+}
+img{
+  transform: translate(0,25%);
+}
+h1{
+  display: inline-block;
+  color: grey;
+  font-size: 25px;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+ul div{
+  display: flex;
+}
+li{
+  list-style-type: none;
+  margin-right: 30px;
+  padding-bottom: 15px;
+}
+.active{
+  color: blue;
+  border-bottom: solid 3px blue
+}
+
+
+
+
+
+
+p{
+  padding-top: 20px;
+}
+h2{
+  padding-top: 64px;
+}
+main,.footer{
+  max-width: 978px;
+  margin: 0 auto;
+}
+
+footer{
+  padding: 20px 0;
+  background-color: lightgrey;
+  margin-top: 40px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
